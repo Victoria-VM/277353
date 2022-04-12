@@ -1,1 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    min-height: 100%;
+}
+.header{
+    height: 60px;
+    background-color: #fefefe;
+    box-shadow: 0 0 10px 0px black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 4;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    width: 50%;
+}
+.section{
+    height: 100vh;
+    padding-top: 60px;
+}
+.fon{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: relative;
+    z-index: -10;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#works{
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+    background-color: #fefefe;
+    height: 95vh;
+}
+.footer{
+    height: 5vh;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
