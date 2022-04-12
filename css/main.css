@@ -26,3 +26,16 @@
     font-size: 36px;
     font-family: 'Supermercado One', cursive;
 }
+.menu{
+    width: 50%;
+}
+a{
+    color: #212121;
+    text-transform: uppercase;
+}
+.menu-link{
+    font-size:20px;
+    font-family: 'Supermercado One', cursive;
+    border-radius: 20px;
+    padding: 6px 15px;
+}
