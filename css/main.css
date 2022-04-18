@@ -1,16 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
-html{
-    scroll-behavior: smooth;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 .container{
     width: 90%;
     margin: 0px auto;
     min-height: 100%;
 }
 .header{
-    height: 60px;
+    height: 80px;
     background-color: #212121;
-    box-shadow: 0 0 10px 0px #fefefe;
+    box-shadow: 0 0 10px 0px black;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -24,6 +21,41 @@ html{
 }
 .menu{
     width: 50%;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.logo{
+    color: #fefefe;
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 0 20px #8d39ec;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 95px;
+}
+.logo::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 95px;
+    z-index: -1;
+    color: #8d39ec;
+    filter: blur(15px);
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #7827e6;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
 }
 .section{
     height: 100vh;
